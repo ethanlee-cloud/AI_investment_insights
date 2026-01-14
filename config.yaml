@@ -18,8 +18,11 @@ project:
 websites:
   - name: "Milken Institute"
     url: "https://milkeninstitute.org/"
-    # optional hint: a page likely listing news/insights
-    news_index: "https://milkeninstitute.org/newsroom"
+    news_index: "https://milkeninstitute.org"
+
+  - name: "World Economic Forum"
+    url: "https://www.oaktreecapital.com/insights"
+    news_index: "https://www.oaktreecapital.com/insights"
 
 # Optional: you can specify RSS feeds for better reliability
 rss_feeds:
