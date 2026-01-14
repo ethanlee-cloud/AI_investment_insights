@@ -1,4 +1,5 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, field
+
 from typing import List, Optional, Dict, Any
 import yaml
 
@@ -33,7 +34,7 @@ class MarketSignalsConfig:
 class MarketConfig:
     benchmark: str = "SPY"
     history_days: int = 365
-    signals: MarketSignalsConfig = MarketSignalsConfig()
+    signals: MarketSignalsConfig = field(default_factory=MarketSignalsConfig)
 
 
 @dataclass
