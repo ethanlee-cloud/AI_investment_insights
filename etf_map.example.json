@@ -1,0 +1,9 @@
+{
+  "ai semiconductors": ["SMH", "SOXX"],
+  "private credit": ["BIZD", "HYG", "JNK"],
+  "emerging markets": ["VWO", "EEM"],
+  "treasuries": ["TLT", "IEF"],
+  "clean energy": ["ICLN", "TAN"],
+  "financials": ["XLF", "KBE"],
+  "healthcare": ["XLV", "IHI"]
+}
