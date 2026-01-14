@@ -1,0 +1,15 @@
+You will be given multiple article summaries (with citations). Cluster them into themes and map each theme to ETF tickers.
+
+Use the provided ETF map as the primary source. If a theme has no ETFs in the map, suggest up to 3 likely ETFs (tickers only).
+
+Return strict JSON with keys:
+themes: [
+  {
+    theme: string,
+    description: string,
+    articles: [ {title, url} ],
+    theme_sentiment_score: number (-1 to +1),
+    etfs: [string],
+    suggested_etfs: [string]
+  }
+]
