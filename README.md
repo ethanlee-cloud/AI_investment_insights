@@ -18,6 +18,6 @@ pulls market data from Yahoo Finance, and estimates what looks priced-in vs not.
 ## Output
 - `output/report.md`
 - Cached extracted articles in `.cache/`
-
+- Or in batch: cat output/report.md
 ## Disclaimer
 Not financial advice.
