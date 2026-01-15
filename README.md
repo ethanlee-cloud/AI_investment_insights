@@ -5,8 +5,8 @@ pulls market data from Yahoo Finance, and estimates what looks priced-in vs not.
 
 ## Setup
 1. `pip install -r requirements.txt`
-2. Copy `config.example.yaml` -> `config.yaml` and fill DeepSeek key/model/base_url
-3. Copy `etf_map.example.json` -> `etf_map.json`
+2. Fill DeepSeek key/model/base_url in `config.yaml`
+3. Edit `etf_map.json ` if needed
 4. Run: `python main.py`
 
 ## Customize
